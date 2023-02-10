@@ -1,0 +1,54 @@
+.program {
+  padding: 3rem 0 5rem;
+}
+
+.program-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.program-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* =========CARD======= */
+
+.card-head {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem 1rem 0 0;
+  color: var(--color-white);
+  display: grid;
+  grid-template-columns: .3fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: var(--color-primary);
+}
+
+.card-head-right h5 {
+  color: goldenrod;
+}
+
+.card-content {
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, .4);
+  padding: 1rem 2rem;
+  line-height: 1;
+}
+
+.card-content h5 {
+  font-size: medium;
+}
+
+.card-price {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.card-price strong {
+  color: green;
+}
