@@ -31,7 +31,7 @@ const Program = () => {
       <h2 className="program-title">~Program~</h2>
       <div className="container program-container">
         {programData.map((val, idx) => (
-          <ProgramCard val={val} id={idx} />
+          <ProgramCard val={val} key={idx} />
         ))}
       </div>
     </div>

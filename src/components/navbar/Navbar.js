@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button"
 
 const Navbar = () => {
   return (
-    <navbar className="navbar">
+    <nav className="navbar">
       <div className="container nav-container">
         <div className="nav-logo">
           <span>LOGO</span>
@@ -21,7 +21,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </navbar>
+    </nav>
   )
 }
 
